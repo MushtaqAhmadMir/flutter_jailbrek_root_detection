@@ -48,14 +48,14 @@ class _MyAppState extends State<MyApp> {
     }
 
     setState(() {
-      // isJailBroken = isJailBroken;
-      // canMockLocation = canMockLocation;
-      // isRealDevice = isRealDevice;
-      // isOnExternalStorage = isOnExternalStorage;
-      // isSafeDevice = isSafeDevice;
-      // isDevelopmentModeEnable = isDevelopmentModeEnable;
-      jailbrokenAndroid = jailbrokenAndroid;
-      developerModeAndroid = developerModeAndroid;
+      isJailBroken = isJailBroken;
+      canMockLocation = canMockLocation;
+      isRealDevice = isRealDevice;
+      isOnExternalStorage = isOnExternalStorage;
+      isSafeDevice = isSafeDevice;
+      isDevelopmentModeEnable = isDevelopmentModeEnable;
+      // jailbrokenAndroid = jailbrokenAndroid;
+      // developerModeAndroid = developerModeAndroid;
     });
   }
 
